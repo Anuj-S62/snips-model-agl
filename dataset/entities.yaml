@@ -1,0 +1,162 @@
+# -x-x-  HVAC Temperature Entities  -x-x-
+# -x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-
+---
+type: entity
+name: hvac_temperature_action
+automatically_extensible: false
+use_synonyms: true
+matching_strictness: 0.8
+values:
+  - [increase, up, boost, boosting, raise, heat, warm, warmer]
+  - [decrease, down, reduce, back, lower, cool, colder]
+  - [set, adjust, change]
+
+
+# -x-x-x- HVAC Fan Speed Entities -x-x-x-
+# -x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-
+---
+type: entity
+name: hvac_fan_speed_action
+automatically_extensible: false
+use_synonyms: true
+matching_strictness: 0.8
+values:
+  - [increase, up, boost, boosting, raise]
+  - [decrease, down, reduce, back, lower]
+  - [set, adjust, change]
+
+
+# -x-x-x- Volume Control Entities -x-x-x-
+# -x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-
+---
+type: entity
+name: volume_control_action
+automatically_extensible: false
+use_synonyms: true
+matching_strictness: 0.8
+values:
+  - [increase, up, louder, raise]
+  - [decrease, lower, down, reduce, quieter]
+  - [set, adjust, change]
+
+
+# -x-x-x-x-x- Common Entities -x-x-x-x-x-
+# -x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-
+---
+type: entity
+name: to_or_by
+automatically_extensible: false
+use_synonyms: false
+matching_strictness: 1.0
+values:
+  - to
+  - by
+
+---
+type: entity
+name: numeric_value
+automatically_extensible: false
+use_synonyms: true
+matching_strictness: 0.8
+values:
+  - [zero]
+  - [one]
+  - [two]
+  - [three]
+  - [four]
+  - [five]
+  - [six]
+  - [seven]
+  - [eight]
+  - [nine]
+  - [ten]
+  - [eleven]
+  - [twelve]
+  - [thirteen]
+  - [fourteen]
+  - [fifteen]
+  - [sixteen]
+  - [seventeen]
+  - [eighteen]
+  - [nineteen]
+  - [twenty]
+  - [twenty one]
+  - [twenty two]
+  - [twenty three]
+  - [twenty four]
+  - [twenty five]
+  - [twenty six]
+  - [twenty seven]
+  - [twenty eight]
+  - [twenty nine]
+  - [thirty]
+  - [thirty one]
+  - [thirty two]
+  - [thirty three]
+  - [thirty four]
+  - [thirty five]
+  - [thirty six]
+  - [thirty seven]
+  - [thirty eight]
+  - [thirty nine]
+  - [fourty]
+  - [fourty one]
+  - [fourty two]
+  - [fourty three]
+  - [fourty four]
+  - [fourty five]
+  - [fourty six]
+  - [fourty seven]
+  - [fourty eight]
+  - [fourty nine]
+  - [fifty, halfway, half]
+  - [fifty one]
+  - [fifty two]
+  - [fifty three]
+  - [fifty four]
+  - [fifty five]
+  - [fifty six]
+  - [fifty seven]
+  - [fifty eight]
+  - [fifty nine]
+  - [sixty]
+  - [sixty one]
+  - [sixty two]
+  - [sixty three]
+  - [sixty four]
+  - [sixty five]
+  - [sixty six]
+  - [sixty seven]
+  - [sixty eight]
+  - [sixty nine]
+  - [seventy]
+  - [seventy one]
+  - [seventy two]
+  - [seventy three]
+  - [seventy four]
+  - [seventy five, three quarters]
+  - [seventy six]
+  - [seventy seven]
+  - [seventy eight]
+  - [seventy nine]
+  - [eighty]
+  - [eighty one]
+  - [eighty two]
+  - [eighty three]
+  - [eighty four]
+  - [eighty five]
+  - [eighty six]
+  - [eighty seven]
+  - [eighty eight]
+  - [eighty nine]
+  - [ninety]
+  - [ninety one]
+  - [ninety two]
+  - [ninety three]
+  - [ninety four]
+  - [ninety five]
+  - [ninety six]
+  - [ninety seven]
+  - [ninety eight]
+  - [ninety nine]
+  - [hundred, fully, completely, all the way, max]

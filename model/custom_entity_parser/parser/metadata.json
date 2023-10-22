@@ -1,0 +1,24 @@
+{
+  "parsers_metadata": [
+    {
+      "entity_identifier": "hvac_fan_speed_action",
+      "entity_parser": "parser_1"
+    },
+    {
+      "entity_identifier": "hvac_temperature_action",
+      "entity_parser": "parser_2"
+    },
+    {
+      "entity_identifier": "numeric_value",
+      "entity_parser": "parser_3"
+    },
+    {
+      "entity_identifier": "to_or_by",
+      "entity_parser": "parser_4"
+    },
+    {
+      "entity_identifier": "volume_control_action",
+      "entity_parser": "parser_5"
+    }
+  ]
+}
