@@ -203,6 +203,18 @@
       "hvac_temperature_action": {
         "automatically_extensible": false
       },
+      "media_album": {
+        "automatically_extensible": true
+      },
+      "media_artist": {
+        "automatically_extensible": true
+      },
+      "media_control_action": {
+        "automatically_extensible": false
+      },
+      "media_item": {
+        "automatically_extensible": true
+      },
       "numeric_value": {
         "automatically_extensible": false
       },
@@ -224,6 +236,12 @@
         "hvac_temperature_action": "hvac_temperature_action",
         "numeric_value": "numeric_value",
         "to_or_by": "to_or_by"
+      },
+      "MediaControl": {
+        "media_album": "media_album",
+        "media_artist": "media_artist",
+        "media_control_action": "media_control_action",
+        "media_item": "media_item"
       },
       "VolumeControl": {
         "numeric_value": "numeric_value",

@@ -9,16 +9,32 @@
       "entity_parser": "parser_2"
     },
     {
-      "entity_identifier": "numeric_value",
+      "entity_identifier": "media_album",
       "entity_parser": "parser_3"
     },
     {
-      "entity_identifier": "to_or_by",
+      "entity_identifier": "media_artist",
       "entity_parser": "parser_4"
     },
     {
-      "entity_identifier": "volume_control_action",
+      "entity_identifier": "media_control_action",
       "entity_parser": "parser_5"
+    },
+    {
+      "entity_identifier": "media_item",
+      "entity_parser": "parser_6"
+    },
+    {
+      "entity_identifier": "numeric_value",
+      "entity_parser": "parser_7"
+    },
+    {
+      "entity_identifier": "to_or_by",
+      "entity_parser": "parser_8"
+    },
+    {
+      "entity_identifier": "volume_control_action",
+      "entity_parser": "parser_9"
     }
   ]
 }

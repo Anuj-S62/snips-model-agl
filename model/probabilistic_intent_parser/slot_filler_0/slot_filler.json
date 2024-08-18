@@ -101,9 +101,9 @@
       {
         "args": {
           "entities": [
-            "to_or_by",
+            "hvac_fan_speed_action",
             "numeric_value",
-            "hvac_fan_speed_action"
+            "to_or_by"
           ],
           "entity_filter": {
             "automatically_extensible": false

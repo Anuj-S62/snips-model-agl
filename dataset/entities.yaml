@@ -23,7 +23,7 @@ matching_strictness: 0.8
 values:
   - [increase, up, boost, boosting, raise]
   - [decrease, down, reduce, back, lower]
-  - [set, adjust, change]
+  - [set, adjust, change, make, ]
 
 
 # -x-x-x- Volume Control Entities -x-x-x-
@@ -35,9 +35,9 @@ automatically_extensible: false
 use_synonyms: true
 matching_strictness: 0.8
 values:
-  - [increase, up, louder, raise]
-  - [decrease, lower, down, reduce, quieter]
-  - [set, adjust, change]
+  - [increase, up, louder, raise, boost, bump]
+  - [decrease, lower, down, reduce, quieter, drop]
+  - [set, adjust, change, drop, make, move ]
 
 
 # -x-x-x-x-x- Common Entities -x-x-x-x-x-
@@ -160,3 +160,43 @@ values:
   - [ninety eight]
   - [ninety nine]
   - [hundred, fully, completely, all the way, max]
+
+
+# -x-x- Media Control Entities -x-x-
+# -x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-
+---
+type: entity
+name: media_control_action
+automatically_extensible: false
+use_synonyms: true
+matching_strictness: 0.8
+values:
+  - [play, start, resume, continue, begin]
+  - [pause, stop, hold]
+  - [next, skip, forward, advance]
+  - [previous, back, rewind, earlier]
+
+# Optional entities for more dynamic control (like specific tracks or artists)
+---
+type: entity
+name: media_item
+automatically_extensible: true
+use_synonyms: false
+values:
+  - [song, track, music, album]
+  
+---
+type: entity
+name: media_artist
+automatically_extensible: true
+use_synonyms: false
+values:
+  - [artist, band, performer]
+
+---
+type: entity
+name: media_album
+automatically_extensible: true
+use_synonyms: false
+values:
+  - [album, record, playlist]

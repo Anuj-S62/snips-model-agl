@@ -31,15 +31,26 @@ utterances:
   - "[hvac_temperature_action] the thermostat [to_or_by] [numeric_value] degrees fahrenheit"
   - could you [hvac_temperature_action] the cars temperature [to_or_by] [numeric_value] degrees
   - "[hvac_temperature_action] the temperature [to_or_by] [numeric_value] degrees celsius"
+  - "[hvac_temperature_action] the ac temperature [to_or_by] [numeric_value] degrees celsius"
   - "[hvac_temperature_action] the temperature [to_or_by] [numeric_value] degrees"
-  - "[hvac_temperature_action] the temperature [to_or_by] [numeric_value] degrees celsius"
+  - "[hvac_temperature_action] the ac temperature [to_or_by] [numeric_value] degrees"
   - "[hvac_temperature_action] the temperature [to_or_by] [numeric_value] degrees fahrenheit"
-  - "[hvac_temperature_action] the temperature [to_or_by] [numeric_value] degrees"
-  - "[hvac_temperature_action] the temperature [to_or_by] [numeric_value] degrees celsius"
-  - "[hvac_temperature_action] the temperature [to_or_by] [numeric_value] degrees"
-  - "[hvac_temperature_action] the temperature [to_or_by] [numeric_value] degrees fahrenheit"
-  - "[hvac_temperature_action] the temperature [to_or_by] [numeric_value] degrees celsius"
-  - "[hvac_temperature_action] the thermostat [to_or_by] [numeric_value] degrees fahrenheit"
+  - "[hvac_temperature_action] the ac temperature [to_or_by] [numeric_value] degrees fahrenheit"
+  - "[hvac_temperature_action] temperature [to_or_by] [numeric_value] degrees celsius"
+  - "[hvac_temperature_action] ac temperature [to_or_by] [numeric_value] degrees celsius"
+  - "[hvac_temperature_action] temperature [to_or_by] [numeric_value] degrees"
+  - "[hvac_temperature_action] ac temperature [to_or_by] [numeric_value] degrees"
+  - "[hvac_temperature_action] temperature [to_or_by] [numeric_value] degrees fahrenheit"
+  - "[hvac_temperature_action] ac temperature [to_or_by] [numeric_value] degrees fahrenheit"
+  - "[hvac_temperature_action] the temperature"
+  - "[hvac_temperature_action] the ac temperature"
+  - "[hvac_temperature_action] the temperature [numeric_value] degrees celsius"
+  - "[hvac_temperature_action] the ac temperature [numeric_value] degrees celsius"
+  - "[hvac_temperature_action] temperature [numeric_value] degrees"
+  - "[hvac_temperature_action] ac temperature [numeric_value] degrees"
+  - "[hvac_temperature_action] temperature [numeric_value] degrees fahrenheit"
+  - "[hvac_temperature_action] ac temperature [numeric_value] degrees fahrenheit"
+  - "[hvac_temperature_action] the temperature"
 
 
 # HVAC Fan Speed Intent
@@ -56,6 +67,28 @@ slots:
 utterances:
   - "[hvac_fan_speed_action] the fan speed [numeric_value] percent"
   - "[hvac_fan_speed_action] the fan speed [numeric_value]"
+  - "[hvac_fan_speed_action] fan speed [numeric_value] percent"
+  - "[hvac_fan_speed_action] fan speed [numeric_value]"
+  - "[hvac_fan_speed_action] the fan speed [to_or_by] [numeric_value] percent"
+  - "[hvac_fan_speed_action] the fan speed [to_or_by] [numeric_value]"
+  - "[hvac_fan_speed_action] fan speed [to_or_by] [numeric_value] percent"
+  - "[hvac_fan_speed_action] fan speed [to_or_by] [numeric_value]"
+  - "[hvac_fan_speed_action] the fan speed [numeric_value] percent"
+  - "[hvac_fan_speed_action] the fan speed [numeric_value]"
+  - "[hvac_fan_speed_action] fan speed [numeric_value] percent"
+  - "[hvac_fan_speed_action] fan speed [numeric_value]"
+  - "[hvac_fan_speed_action] the fan speed [to_or_by] [numeric_value] percent"
+  - "[hvac_fan_speed_action] the fan speed [to_or_by] [numeric_value]"
+  - "[hvac_fan_speed_action] fan speed [to_or_by] [numeric_value] percent"
+  - "[hvac_fan_speed_action] fan speed [to_or_by] [numeric_value]"
+  - "[hvac_fan_speed_action] the fan [numeric_value] percent"
+  - "[hvac_fan_speed_action] the fan [numeric_value]"
+  - "[hvac_fan_speed_action] fan [numeric_value] percent"
+  - "[hvac_fan_speed_action] fan [numeric_value]"
+  - "[hvac_fan_speed_action] the fan [to_or_by] [numeric_value] percent"
+  - "[hvac_fan_speed_action] the fan [to_or_by] [numeric_value]"
+  - "[hvac_fan_speed_action] fan [to_or_by] [numeric_value] percent"
+  - "[hvac_fan_speed_action] fan [to_or_by] [numeric_value]"
   - can you please [hvac_fan_speed_action] the fan speed [numeric_value] percent
   - please [hvac_fan_speed_action] the fan speed [numeric_value]
   - i want [to_or_by] [hvac_fan_speed_action] the fan speed [numeric_value] percent
@@ -114,32 +147,154 @@ slots:
 utterances:
   - "[volume_control_action] the volume"
   - "[volume_control_action] the volume [to_or_by] [numeric_value] percent"
-  - turn the volume [volume_control_action] a bit
+  - "[volume_control_action] the sound [to_or_by] [numeric_value] percent"
+  - "[volume_control_action] the volume [to_or_by] [numeric_value]%"
+  - "[volume_control_action] volume [numeric_value]"
+  - "turn the volume [volume_control_action] [to_or_by] [numeric_value]"
+  - "turn the volume [volume_control_action] a bit"
   - "[volume_control_action] the sound"
   - "[volume_control_action] the sound [to_or_by] [numeric_value]"
-  - can you please crank [volume_control_action] the volume
-  - please [volume_control_action] the volume [to_or_by] [numeric_value]
-  - i want the volume [volume_control_action]
-  - could you [volume_control_action] the sound a bit
+  - "can you please crank [volume_control_action] the volume"
+  - "please [volume_control_action] the volume [to_or_by] [numeric_value]"
+  - "i want the volume [volume_control_action]"
+  - "could you [volume_control_action] the sound a bit"
   - "[volume_control_action] the volume"
-  - make it a little [volume_control_action]
-  - turn the volume [volume_control_action] please
+  - "make it a little [volume_control_action]"
+  - "turn the volume [volume_control_action] please"
   - "[volume_control_action] the sound"
-  - can you please [volume_control_action] the volume
-  - please [volume_control_action] the volume [to_or_by] [numeric_value]
-  - i want it a bit [volume_control_action]
-  - could you [volume_control_action] the sound a bit
+  - "can you please [volume_control_action] the volume"
+  - "please [volume_control_action] the volume [to_or_by] [numeric_value]"
+  - "i want it a bit [volume_control_action]"
+  - "could you [volume_control_action] the sound a bit"
   - "[volume_control_action] the volume [to_or_by] [numeric_value]"
   - "[volume_control_action] the volume [to_or_by] [numeric_value] percent"
   - "[volume_control_action] the sound [to_or_by] [numeric_value] percent"
   - "[volume_control_action] the volume [to_or_by] [numeric_value]"
-  - turn the volume [volume_control_action] [to_or_by] [numeric_value]
-  - make it a tad [volume_control_action]
-  - can you [volume_control_action] the volume up a notch
-  - please [volume_control_action] the sound [to_or_by] [numeric_value] level
+  - "turn the volume [volume_control_action] [to_or_by] [numeric_value]"
+  - "make it a tad [volume_control_action]"
+  - "can you [volume_control_action] the volume up a notch"
+  - "please [volume_control_action] the sound [to_or_by] [numeric_value] level"
   - "[volume_control_action] the volume a little"
-  - could you make it [volume_control_action] [to_or_by] [numeric_value] percent
-  - turn the volume [volume_control_action] just a touch
-  - i would like [to_or_by] [volume_control_action] the sound [to_or_by] [numeric_value] percent
+  - "could you make it [volume_control_action] [to_or_by] [numeric_value] percent"
+  - "turn the volume [volume_control_action] just a touch"
+  - "i would like [to_or_by] [volume_control_action] the sound [to_or_by] [numeric_value] percent"
   - "[volume_control_action] the volume a bit more"
-  - can you please [volume_control_action] the sound slightly
+  - "can you please [volume_control_action] the sound slightly"
+  - "[volume_control_action] the volume"
+  - "[volume_control_action] the volume"
+  - "[volume_control_action] the volume [to_or_by] [numeric_value]%"
+  - "[volume_control_action] the sound [to_or_by] [numeric_value] percent"
+  - "bump [volume_control_action] the volume [to_or_by] [numeric_value]"
+  - "[volume_control_action] the volume [to_or_by] [numeric_value] percent"
+  - "[volume_control_action] the sound [volume_control_action]"
+  - "make the volume [volume_control_action]"
+  - "turn [volume_control_action] the volume"
+  - "turn [volume_control_action] the sound"
+  - "set the volume [to_or_by] [numeric_value] percent"
+  - "set the sound [to_or_by] [numeric_value] percent"
+  - "[volume_control_action] the volume"
+  - "[volume_control_action] the sound"
+  - "[volume_control_action] the sound by [numeric_value] percent"
+  - "[volume_control_action] the volume by [numeric_value] percent"
+  - "ramp [volume_control_action] the volume"
+  - "dial [volume_control_action] the sound"
+  - "volume [volume_control_action]"
+  - "volume [volume_control_action]"
+  - "sound [volume_control_action]"
+  - "crank [volume_control_action] the volume"
+  - "crank [volume_control_action] the sound"
+  - "volume [to_or_by] [numeric_value] percent"
+  - "sound [to_or_by] [numeric_value] percent"
+  - "[volume_control_action] the volume [numeric_value]%"
+  - "[volume_control_action] the sound [numeric_value] percent"
+  - "bring the volume [to_or_by] [numeric_value]%"
+  - "bring the sound [to_or_by] [numeric_value] percent"
+  - "can you [volume_control_action] the volume"
+  - "can you [volume_control_action] the sound"
+  - "I need the volume [volume_control_action]"
+  - "I need the sound [volume_control_action]"
+  - "[volume_control_action] it [volume_control_action]"
+  - "[volume_control_action] it [to_or_by] [numeric_value] percent"
+  - "shift the volume [to_or_by] [numeric_value] percent"
+  - "shift the sound [to_or_by] [numeric_value] percent"
+  - "can you set the volume [to_or_by] [numeric_value] percent"
+  - "can you set the sound [to_or_by] [numeric_value] percent"
+  - "alter the volume [to_or_by] [numeric_value] percent"
+  - "alter the sound [to_or_by] [numeric_value] percent"
+  - "bring [volume_control_action] the volume"
+  - "bring [volume_control_action] the sound"
+  - "move the volume [to_or_by] [numeric_value] percent"
+  - "move the sound [to_or_by] [numeric_value] percent"
+  - "turn the sound [volume_control_action]"
+  - "please [volume_control_action] the volume [volume_control_action]"
+  - "could you [volume_control_action] the volume [volume_control_action]"
+  - "[volume_control_action] the sound [volume_control_action]"
+  - "[volume_control_action] the volume [numeric_value] percent"
+  - "[volume_control_action] the sound [numeric_value]%"
+  - "can you crank [volume_control_action] the volume"
+  - "can you crank [volume_control_action] the sound"
+  - "please [volume_control_action] the volume"
+  - "please [volume_control_action] the sound"
+  - "could you bring [volume_control_action] the volume"
+  - "could you bring [volume_control_action] the sound"
+  - "[volume_control_action] the volume [to_or_by] [numeric_value]%"
+  - "[volume_control_action] the sound [to_or_by] [numeric_value]%"
+  - "[volume_control_action] the volume [to_or_by] [numeric_value] percent"
+  - "[volume_control_action] the sound [to_or_by] [numeric_value] percent"
+  - "[volume_control_action] the volume [to_or_by] [numeric_value]%"
+  - "[volume_control_action] the sound [to_or_by] [numeric_value]%"
+  - "turn [volume_control_action] the volume [to_or_by] [numeric_value] percent"
+  - "turn [volume_control_action] the sound [to_or_by] [numeric_value] percent"
+  - "could you [volume_control_action] the volume"
+  - "could you [volume_control_action] the sound"
+  - "please [volume_control_action] the volume"
+  - "please [volume_control_action] the sound"
+  - "can you [volume_control_action] the volume"
+  - "can you [volume_control_action] the sound"
+  - "alter the volume [to_or_by] [numeric_value] percent"
+  - "alter the sound [to_or_by] [numeric_value] percent"
+  - "please [volume_control_action] the volume [to_or_by] [numeric_value] percent"
+  - "please [volume_control_action] the sound [to_or_by] [numeric_value] percent"
+
+ 
+# Media Control Intent
+---
+type: intent
+name: MediaControl
+slots:
+  - name: media_control_action
+    entity: media_control_action
+  - name: media_item
+    entity: media_item
+  - name: media_artist
+    entity: media_artist
+  - name: media_album
+    entity: media_album
+utterances:
+  - "[media_control_action]"
+  - "[media_control_action] the music"
+  - "[media_control_action] the [media_item]"
+  - can you [media_control_action] the [media_item]?
+  - please [media_control_action] the music
+  - I want to [media_control_action] the [media_item]
+  - could you [media_control_action] the [media_item]?
+  - "[media_control_action] the playlist"
+  - lets [media_control_action] the [media_item]
+  - "[media_control_action] my favorite [media_item]"
+  - "[media_control_action] the [media_item] by [media_artist]"
+  - "[media_control_action] the album [media_album]"
+  - "[media_control_action] the next [media_item]"
+  - "[media_control_action] to the previous [media_item]"
+  - "[media_control_action] the [media_item] from [media_album]"
+  - "[media_control_action] the [media_album] by [media_artist]"
+  - "[media_control_action] the current [media_item]"
+  - "[media_control_action] the song"
+  - can you [media_control_action] the album [media_album]?
+  - could you [media_control_action] the track by [media_artist]?
+  - "[media_control_action] the song by [media_artist]"
+  - "[media_control_action] the track from [media_album]"
+  - please [media_control_action] the album by [media_artist]
+  - "[media_control_action] the next song by [media_artist]"
+  - lets [media_control_action] the previous album [media_album]
+  - "[media_control_action] the [media_item] by [media_artist]"
+  - "[media_control_action] the [media_item] from [media_album]"

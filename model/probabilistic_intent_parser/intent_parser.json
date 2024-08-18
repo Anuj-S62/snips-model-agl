@@ -194,8 +194,12 @@
       "slot_filler_name": "slot_filler_1"
     },
     {
-      "intent": "VolumeControl",
+      "intent": "MediaControl",
       "slot_filler_name": "slot_filler_2"
+    },
+    {
+      "intent": "VolumeControl",
+      "slot_filler_name": "slot_filler_3"
     }
   ]
 }

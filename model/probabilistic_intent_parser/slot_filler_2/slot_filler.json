@@ -101,9 +101,7 @@
       {
         "args": {
           "entities": [
-            "to_or_by",
-            "numeric_value",
-            "volume_control_action"
+            "media_control_action"
           ],
           "entity_filter": {
             "automatically_extensible": false
@@ -120,7 +118,11 @@
       },
       {
         "args": {
-          "entities": [],
+          "entities": [
+            "media_artist",
+            "media_album",
+            "media_item"
+          ],
           "entity_filter": {
             "automatically_extensible": true
           },
@@ -178,11 +180,12 @@
     "unit_name": "crf_slot_filler"
   },
   "crf_model_file": "model.crfsuite",
-  "intent": "VolumeControl",
+  "intent": "MediaControl",
   "language_code": "en",
   "slot_name_mapping": {
-    "numeric_value": "numeric_value",
-    "to_or_by": "to_or_by",
-    "volume_control_action": "volume_control_action"
+    "media_album": "media_album",
+    "media_artist": "media_artist",
+    "media_control_action": "media_control_action",
+    "media_item": "media_item"
   }
 }
